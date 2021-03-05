@@ -1,0 +1,64 @@
+.theme
+  &--light
+
+    &.v-application
+      .text
+        color: #fff !important
+      .text--secondary
+        color: rgba(255, 255, 255,0.5) !important
+
+    .v-app-bar, .v-main, .v-footer
+      background-color: #243250 !important
+      color: #fff !important
+    .v-navigation-drawer
+      background-color: #1c273f !important
+      .v-list-item
+        &__title
+          color: #fff !important
+    .v-data-table
+      color: #fff !important
+      background-color: transparent !important
+      tr
+        &:hover
+          background-color: rgba(255, 255, 255, .05) !important
+    .v-card
+      &__text
+        color: #fff !important
+
+    .v-expansion-panels
+      margin: 0 24px !important
+      .v-expansion-panel-header
+        color: #fff !important
+        background-color: #3d4b6b !important
+        &--active
+          background-color: #083766 !important
+
+    .user-bg
+      background-color: #3d4b6b !important
+
+  &--dark
+    .v-app-bar, .v-main, .v-footer
+      background-color: #0c1221 !important
+
+    // Challenge related
+    .v-expansion-panels
+      margin: 0 24px
+      .v-expansion-panel-header
+        background-color: #062a4e
+        &:hover
+          background-color: #083766
+
+    .v-navigation-drawer
+      background-color: #111827 !important
+
+    .v-data-table
+      background-color: transparent !important
+      tr
+        &:hover
+          background-color: rgba(255, 255, 255, .05) !important
+
+    .user-bg
+      background-color: #111827 !important
+
+    .bg-transparent
+      background-color: #0c1221 !important
