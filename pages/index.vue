@@ -8,7 +8,11 @@
               <v-card-text class="font-monts">
                 <v-row class="mb-4 f-20" align="center">
                   <v-avatar size="50" class="mr-4">
-                    <v-img width="50" height="50" src="/oyusec/logo.png" />
+                    <v-img
+                      width="50"
+                      height="50"
+                      src="/oyusec-client/logo.png"
+                    />
                   </v-avatar>
                   <strong class="f-25" v-text="competition.name" />
                 </v-row>

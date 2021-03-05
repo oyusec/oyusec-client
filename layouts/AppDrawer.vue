@@ -11,7 +11,7 @@
     <router-link to="/">
       <div class="mt-2 d-flex align-center">
         <v-avatar tile size="45" class="ml-4">
-          <v-img src="/oyusec/logo.png" />
+          <v-img src="/oyusec-client/logo.png" />
         </v-avatar>
         <div class="ml-5">
           <span class="white--text">OyuSec</span>

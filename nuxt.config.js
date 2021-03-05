@@ -87,14 +87,16 @@ export default {
         content: 'CTF сонирхогч залуучуудад зориулан бүтээв',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/oyusec/logo.png' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/oyusec-client/logo.png' },
+    ],
   },
   loading: {
     color: '#b388ff',
     height: '2px',
   },
   router: {
-    base: '/oyusec/',
+    base: '/oyusec-client/',
   },
   css: ['~/assets/global.sass', '~/assets/class.sass', '~/assets/theme.sass'],
   plugins: ['~/plugins/consts'],
