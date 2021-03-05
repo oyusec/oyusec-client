@@ -93,7 +93,7 @@ export default {
   },
   loading: {
     color: '#b388ff',
-    height: '2px',
+    height: '1px',
   },
   router: {
     base: '/oyusec-client/',
